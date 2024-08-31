@@ -1,0 +1,25 @@
+section{
+    background-color: blanchedalmond;
+    padding: 20px;
+}
+div{
+    
+    margin: 20px;
+    padding: 20px;
+    color: black;
+    background-color: gray;
+    text-align: center;
+}
+.container1{ display: block;}
+.container2{ display: flex;}
+
+
+.container3{display: inline-flex;}
+
+.container4>ul>li{
+    background-color: gray;
+    color: black;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+}

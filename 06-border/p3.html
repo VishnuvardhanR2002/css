@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>border-block</title>
+    <style>
+        .container div {
+            width: 200px;
+            height: 200px;
+            border-color: gray;
+            border-width: 1em;
+            margin: 20px;
+            padding: 10px;
+            background-color: #ccc;
+        }
+        .b1{
+            border-block: solid;
+            writing-mode: horizontal-tb;
+        }
+        .b2{
+            border-block: dashed;
+            writing-mode:vertical-lr;
+        }
+        .b3{
+            border-block: 16px solid;
+            writing-mode: horizontal-tb;
+            direction: rtl;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>BORDER-BLOCK</h1>
+    </center>
+
+    <hr>
+
+
+    <div class="container">
+        <div class="b1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni impedit dolore aliquid nisi suscipit aliquam harum quos iusto. Autem dolores iste dolorum eveniet non maiores alias explicabo nesciunt earum laboriosam?
+        </div>
+        <div class="b2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni impedit dolore aliquid nisi suscipit aliquam harum quos iusto. Autem dolores iste dolorum eveniet non maiores alias explicabo nesciunt earum laboriosam?
+        </div>
+        <div class="b3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni impedit dolore aliquid nisi suscipit aliquam harum quos iusto. Autem dolores iste dolorum eveniet non maiores alias explicabo nesciunt earum laboriosam?
+        </div>
+    </div>
+</body>
+</html>

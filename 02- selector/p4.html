@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SELECTOR</title>
+    <style>
+        .demoClass{
+            background-color: gray;
+            border: 2px solid black;
+            margin: 20px 0px 20px 0px;
+            padding: 10px;
+        }
+
+        .heading{
+            background-color: gray;
+            display: flex;
+            justify-content: space-between;
+            height: 60px;
+            align-items: center;
+            padding: 0px 20px 0px 20px;
+            border: 2px solid black;
+        }
+
+        .logo{
+            font-size: i.6em;
+            color: white;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        .menu a{
+            text-decoration: none;
+            background-color: white;
+            padding: 10px;
+            border: 1px solid black;
+
+        }
+        
+    </style>
+</head>
+<body>
+    <center>
+        <h1>CLASS SELECTOR</h1>
+    </center>
+    <hr>
+
+    <h2>EXAMPLE-1</h2>
+
+    <div class="demoClass">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque nam velit recusandae laudantium eaque maiores culpa. Fuga vel porro ab ducimus explicabo cupiditate autem placeat, magni perferendis, nemo deleniti quaerat.</p>
+    </div>
+
+
+    <section class="demoClass">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque nam velit recusandae laudantium eaque maiores culpa. Fuga vel porro ab ducimus explicabo cupiditate autem placeat, magni perferendis, nemo deleniti quaerat.</p>
+    </section>
+
+    <h2>EXAMPLE-2</h2>
+
+    <header class="heading">
+        <a href="#" class="logo">Logo Here</a>
+
+        <nav class="menu">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <section class="container">
+        <div class="home">
+            <h1 class="name">vishnu</h1>
+            <h1 class="job">Developer</h1>
+        </div>
+
+        <div class="about">
+            <h3 class="about-title">About Me</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur deleniti id laborum officia quo dolorum enim ratione similique eum. Obcaecati molestias sapiente impedit excepturi quam commodi possimus consectetur repellat reprehenderit.</p>
+
+        </div>
+
+        <dir class="contact">
+            <h3 class="contact-title">Contact Us</h3>
+        </dir>
+    </section>
+</body>
+</html>

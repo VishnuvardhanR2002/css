@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        dialog::backdrop{
+            background-color: blanchedalmond;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>::backdrop</h1>
+    </center>
+    <hr>
+
+    <button type="button" onclick="openDialog()">open dialog</button>
+
+    <dialog id="dialog">
+        <h2>Dialog box</h2>
+        <p>This is dialog box</p>
+        <button onclick="closeDialog()">close</button>
+    </dialog>
+    <script>
+        function openDialog(){
+            document.getElementById("dialog").showModal();
+
+        }
+        function closeDialog(){
+            document.getElementById("dialog").close();
+
+        }
+
+    </script>
+</body>
+</html>

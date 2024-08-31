@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .title{
+        background-color: antiquewhite;
+        padding: 30px;
+        margin: 30px;
+        border-radius: 10px;
+        text-align: center;
+    }
+    .title>h1{
+        color: red;
+    }
+    .title>p{
+        color: darkblue;
+        font-size: 20px;
+    }
+    .title+section>h1{background-color: lightgray;}
+    .title+section>h1:hover{background-color: gray;}
+    .title+section>a{color: gray;}
+    .title+section>a:link{color: gray;}
+    .title+section>a:hover{color: black;}
+    .title+section>a:active{color: green;}
+    .title+section>a:visited{color: red;}
+</style>
+<body>
+    <section class="title">
+        <h1>CSS PSEUDO-CLASSES</h1>
+        <P>The css pseudo-classes allow yuo to style the dynamic states of an element such as hover, active and focus state as well as element that are existing in the document tree but cant be targeted vis the use of other selectors without adding any ids or classes to them for ex: targeting the first or the last element</P>
+
+        <p>A pseudo-class starts with a colon( :). its syntax can be given with:</p>
+
+        <p><b>selector:pseudo-class { property: value;}</b></p>
+    </section>
+    <section>
+        <h1>Anchor Pseudo-classes..!</h1>
+        <a href="https://youtube.com/" target="_blank">YOUTUBE</a>
+    </section>
+</body>
+</html>

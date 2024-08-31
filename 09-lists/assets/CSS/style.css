@@ -1,0 +1,67 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+.jumbotron{
+    background-color: gray;
+    border-radius: 10px;
+    color: #fff;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 3px 3px 3px #ccc;
+}
+.navbar{
+    background-color: teal;
+}
+.navbar>ul{
+    list-style-type: none;
+    float: right;
+}
+.navbar>ul>li{
+    display: inline-block;
+    padding: 23px;
+}
+.navbar>ul>li>a{
+    color:#fff;
+    text-decoration: none;
+}
+.navbar>ul>li:hover{
+    background-color: black;
+}
+.navbar>ul>li:hover a{
+    color: white;
+}
+.navbar>img{
+    height: 60px;
+}
+
+.list-marker-position>ol>li{
+    background-color: teal;
+    padding: 20px;
+    margin-bottom: 20px;
+    list-style-position: inside;
+}
+.list-style-position>ol>li>a{
+    color: #fff;
+    text-decoration: none;
+}
+.list-marker-position>ol>li:marker{
+    color: red;
+    font-size: 30px;
+    font-weight: lighter;
+
+}
+
+.list-icon>ul>li{
+    list-style-image: url(../images/icon.png)
+}
+
+.list-shorthand>ul>li{
+    background-color: teal;
+    padding: 20px;
+    margin-bottom: 20px;
+    list-style: decline inside url(../images/icon.png);
+}
+

@@ -1,0 +1,97 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    background-color:white;
+    box-shadow: 3px 3px 3px #ccc;
+    
+}
+header>nav>ul{
+    list-style-type: none;
+    float: right;
+}
+header>nav>ul>li{
+    display: inline-block;
+    padding: 20px;
+}
+header>nav>ul>li:hover{background-color: gray;}
+header>nav>ul>li>a{color: red; text-decoration: none;}
+header>nav>ul>li:hover a{color: white;}
+header>nav>img{height: 55px;}
+
+/*common banner (p1.html) */
+.common-banner{
+    height: 80vh;
+    color:gray;
+    padding: 20px;
+}
+.common-banner>h1{
+    text-align: center;
+    font-size: 60px;
+    text-shadow: 3px 3px 3px #f04d4d;
+}
+.common-banner>h1:hover{color: black;}
+
+/*banner-1* (p2.html)*/
+.banner1{background-color: bisque;}
+
+/*banner-2* (p3.html)*/
+.banner2, .banner3{
+    background-image: url(../image/image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+
+}
+
+/*banner-3* (p4.html)*/
+.banner3{
+    height: auto;
+    background-attachment: fixed;
+}
+
+/*(p5.html)*/
+.container{
+    padding: 50px;
+    background-color: lightgray;
+    display: flex;
+}
+.container>div{
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border: 5px dashed black;
+    color: black;
+}
+.container>div>h2{
+    color: red;
+    color: inherit;
+}
+.b1{ background-clip: content-box;}
+.b2{ background-clip: padding-box;}
+.b3{ background-clip: border-box;}
+.b4{ background-clip: text;}
+
+/*(p6.html)*/
+
+.c1{
+    background-image: url(../image/image3.jpg);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}
+.c2{
+    background-image: url(../image/image3.jpg);
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+}
+.c3{
+    background-image: url(../image/image3.jpg);
+    background-repeat: no-repeat;
+    background-origin: border-box;
+}
+
+
+

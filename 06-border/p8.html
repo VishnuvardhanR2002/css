@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .container>div{
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+            border-color: orange;
+            border-width: 1em;
+            padding: 10px;
+            background-color: #ccc;
+       }
+       .b1{
+        border-inline: solid;
+        writing-mode: horizontal-tb;
+       }
+       .b2{
+        border-inline: dashed red;
+        writing-mode: vertical-rl ;
+        
+       }
+       .b3{
+        border-inline: 16px solid;
+        writing-mode: horizontal-tb;
+        direction: rtl;
+       }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>BORDER STYLE</h1>
+    </center>
+
+    <hr>
+
+
+    <div class="container">
+        <div class="b1">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore quis consectetur quidem, reprehenderit quam minima 
+        </div>
+        <div class="b2">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore quis consectetur quidem, reprehenderit quam minima 
+        </div>
+        <div class="b3">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore quis consectetur quidem, reprehenderit quam minima 
+        </div>
+    </div>
+</body>
+</html>

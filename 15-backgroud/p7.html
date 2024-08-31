@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BACKGROUND</title>
+    <style>
+        .container{
+            background-color: lightcyan;
+            padding: 20px;
+        }
+        .container>div{
+            height: 300px;
+            margin: 20px;
+            width: 400px;
+            padding: 20px;
+            background-image: url(assets/image/image6.jpg);
+            background-repeat: no-repeat;
+        }
+        .container>div>h1{
+            color: #fff;
+            font-size: 30px;
+        }
+        .b1{
+            background-color: red;
+            background-blend-mode: normal;
+        }
+        .b2{
+            background-color: red;
+            background-blend-mode: multiply;
+        }
+        .b3{
+            background-color: red;
+            background-blend-mode: hard-light;
+        }
+        .b4{
+            background-color: red;
+            background-blend-mode: difference;
+        }
+        .b5{
+            background-color: purple;
+            background-blend-mode: normal;
+        }
+        .b6{
+            background-size: cover;
+        }
+        .b6>h1{
+            text-align: center;
+            text-transform: uppercase;
+            line-height: 1.9;
+            background-color: green;
+            mix-blend-mode: multiply;
+
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>Background-Blend-Mode</h1>
+    </center>
+
+
+    <hr>
+
+    <section class="container">
+        <div class="b1">
+            <h1>Normal</h1>
+        </div>
+        <div class="b2">
+            <h1>Multiply</h1>
+        </div>
+        <div class="b3">
+            <h1>Hard-Light</h1>
+        </div>
+        <div class="b4">
+            <h1>Different</h1>
+        </div>
+        <div class="b5">
+            <h1>Lighten</h1>
+        </div>
+        <div class="b6">
+            <h1>Outdoor Club</h1>
+        </div>
+    </section>
+</body>
+</html>

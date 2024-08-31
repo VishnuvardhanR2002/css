@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo-class</title>
+    <style>
+        input:autofill{
+            border: 2px solid orange;
+            background-color: antiquewhite;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>:autofill</h1>
+    </center>
+
+    <hr>
+
+    <form autocomplete="on">
+        <label for="name">Enter Name</label>
+        <input type="text" name="name" id="name" autocomplete="name">
+    </form>
+
+    <br><br>
+    <form >
+        <label for="Email">enter email</label>
+        <input type="email" name="email" id="mail" autocomplete="email-id">
+      
+        <button type="submit">submit</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BORDER</title>
+    <style>
+        .container>div{
+            width: 200px;
+            height: 100px;
+            padding: 20px;
+            margin: 20px;
+            border-width: 15px ;
+            border-color: orange;
+            border-style: solid;
+        }
+        .b1{
+            border-image: linear-gradient(orange, blue) 30;
+        }
+        .b2{
+            border-image: repeating-linear-gradient(30deg,teal,orange,deepskyblue) 60;
+        }
+        .b3{
+            border-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoUYCx2dbN5sQ6-MO-Ayqd1yTnKZ0ussxhwg&s') round stretch;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>Border image</h1>
+    </center>
+
+    <hr>
+
+    <section class="container">
+        <div class="b1">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore quis consectetur quidem, reprehenderit quam minima 
+        </div>
+        <div class="b2">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore quis consectetur quidem, reprehenderit quam minima 
+        </div>
+        <div class="b3">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore quis consectetur quidem, reprehenderit quam minima 
+        </div>
+    </section>
+</body>
+</html>

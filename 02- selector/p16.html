@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p[title*="te"]{
+            background-color: skyblue;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>css[attribute*="value"] substring match attribute selector</h1>
+        <p>represents element with an attribute name of attribute whose value contains atleast one occurance of value with in the string</p>
+    </center>
+    <hr>
+
+
+    <h2>Example</h2>
+
+    <section>
+        <p title="test">this is first p tag</p>
+        <p title="case-test-case">this is second p tag</p>
+        <p title="case-test">this is third p tag</p>
+        <p title="casetest">this is fourth p tag</p>
+        <p title="casetest">this is fifth p tag</p>
+    </section>
+</body>
+</html>
